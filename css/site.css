@@ -82,8 +82,6 @@ header > div > a > img {
     margin-block: auto;
     height: 20px;
 }
-nav {
-}
 nav > ul {
     display: flex;
     margin: 0;
@@ -202,6 +200,19 @@ nav > ul > li > a:hover {
 }
 .events > article > .box-body {
     padding-inline: 1em;
+}
+.events > article > .box-body .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5em 1em;
+    margin-block: 1em;
+}
+.events > article > .box-body .tag {
+    padding: .25em .75em;
+    border-radius: .25em;
+    background-color: var(--tile-color-line);
+    font-size: .8em;
+    font-weight: 500;
 }
 .events > article > .box-body > h2 {
     font-size: 18px;
